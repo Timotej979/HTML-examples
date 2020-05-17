@@ -1,9 +1,4 @@
-
-
 Kemijske reakcije za jedkanje s FeCl4 in HCl + H2O2: (Linki:
 http://jss.ecsdl.org/content/4/1/N3084.full
 http://pcbfab.com/chemistry-of-the-cupric-c
 https://www.eevblog.com/forum/projects/best-practice-hcl-h2o2-pcb-etching-(hyrogen-peroxide-hydrochloric-acid)/)
-
-
-
