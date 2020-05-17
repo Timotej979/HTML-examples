@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+
+div.group{
+    max-width: 1300px;
+    min-width: 1125px;
+    width: 66%;
+    text-align: center;
+    display: inline-block;
+}
+
+div.content{
+    background-color: rgba(17, 17, 17, 0.9);
+    border-radius: 20px;
+    border: 5px double #1ac6ff;
+    min-height: 600px;
+    text-align: left;
+    padding-left: 5px;
+}
+
+div.header {
+    margin-bottom: 20px;
+    text-align: left;
+    height: 100px;
+}
+
+figure.contentImage {
+    margin: 10px auto;
+    width: 70%;
+    border: 5px double #1ac6ff;
+    text-align: center;
+}
+
+img.contentImage {
+    width: 100%;
+}
+
+
+/* Menu stuff */
+div.menuButton {
+    transform: none;
+    transition: all, 0.5s, ease-out;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+/*div.menuButton:hover {
+    transform: rotate(90deg);
+}*/
+div.rotMenuButton{
+    transform: rotate(90deg);
+}
+
+img#menuImage {
+    width: inherit;
+    height: inherit;
+    background-color: rgba(17, 17, 17, 0.9);
+    border-radius: 50%;
+}
+
+div.menuBar {
+    transition: width, opacity, 0.7s, ease-out;
+    opacity: 0;
+    width: 0;
+    float: left;
+    height: 90%;
+    margin-top: 17px;
+    margin-left: 5px;
+    overflow-x: hidden;
+}
+
+div.openMenu {
+    opacity: 100;
+    width: 85%;
+    display: inline-block;
+}
+
+div.menuItem {
+    height: 92%;
+    min-width: 150px;
+    display: inline-block;
+    text-align: center;
+    background: linear-gradient(top, rgba(17, 17, 17, 0.9), rgba(17, 17, 17, 0.5));
+    background: -moz-linear-gradient(top, rgba(17, 17, 17, 0.9), rgba(17, 17, 17, 0.5));
+    background: -webkit-linear-gradient(top, rgba(17, 17, 17, 0.9), rgba(17, 17, 17, 0.5));
+    border: 3px solid #1ac6ff;
+}
+
+a.menuItem {
+    text-decoration: none;
+    color: #1ac6ff;
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+a.menuItem:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+a.menuItem:visited {
+    color: #1ac6ff;
+    text-decoration: none;
+}

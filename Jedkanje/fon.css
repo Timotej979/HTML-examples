@@ -1,0 +1,12 @@
+@media screen and (max-width: 400px){
+
+    nav#circularMenu{
+        width: 350px;
+        height: 350px;
+    }
+
+    div#regularCircle{
+        width: 350px;
+        height: 350px;
+    }
+}

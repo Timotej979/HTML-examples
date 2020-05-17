@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css"/>
+        <link rel="stylesheet" href="mainmenu.css"/>
+        <link rel="stylesheet" href="pc.css"/>
+        <link rel="stylesheet" href="fon.css"/>
+        <meta charset="UTF-8"/>
+        <meta name="keywords" content="jedkanje,tiskana vezja,projektna naloga,PCB,etching,hcl"/>
+        <meta name="description" content="Predstavitev jekdanja vezij"/>
+        <title>Jedkanje</title>
+    </head>
+    <body onload="document.querySelector('#regularCircle').classList.add('open');"><!--Da bo bajc srečn -.- -->
+        <div class="menuTextBox" style="float: left; border-top-left-radius: 0; border-bottom-left-radius: 0; border-left: 0">
+            <p>Jedkanje tiskanih vezij je eden od načinov odstranjevanje bakrenega nanosa z laminata. Za to
+                se uporabi kemikalije, ki nase vežejo baker, običajno kisline. Ob uporabi primernega načrta
+                ob tem dobimo skoraj končano tiskano vezje.</p>
+            <p><img src="img/PCB.jpg" style="border-radius: 20px; border: #1ac6ff double; width: 85%; height: 25%; "/></p>
+        </div>
+        <div class="menuTextBox"
+             style="float: right; border-top-right-radius: 0; border-bottom-right-radius: 0; border-right: 0">
+            <p>Ta spletna stran je bila izdelana v sklopu projektnih nalog na Gimnaziji Vič v šolskem letu 2016/17 ter opisuje
+                proces jedkanja tiskanih vezij. V sklopu projektne naloge smo raziskali teorijo, zjedkali eno tiskano
+                vezje, ter ustvarili to spletno stran.</p>
+            <p>Avtorji ne prevzemamo odgovornosti za kakršnekoli poškodbe, ki bi nastale ob upoštevanju napotkov te
+                spletne strani.</p>
+        </div>
+        <nav id="circularMenu">
+            <div id="regularCircle">           <!--Za spreminjanje n-kotnika in elementov sam tle brišeš vn pa dela-->
+                <a href="opis/" id="firstElement" class="circle">Opis projekta</a>
+                <a href="teorija/" id="secondElement" class="circle">Teorija</a>
+                <a href="nase_vezje/" id="thirdElement" class="circle">Vezje</a>
+                <a href="jedkanje/" id="fourthElement" class="circle">Jedkanje vezja</a>
+                <a href="zakljucki/" id="fifthElement" class="circle">Zaključki</a>
+                <a href="projektna_mapa/" id="sixthElement" class="circle">Projektna mapa</a>
+            </div>
+            <a id="centerCircle">
+                <img src="img/gimvic.png" style="width: 75px; height: 75px; border-radius: 50%;"/>
+            </a>
+        </nav>
+        <script src="circularMenu.js"></script>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    background: rgb(0, 20, 42) url(img/back.jpg) no-repeat center top;
+    text-align: center;
+    height: 98%;
+    color: #1ac6ff;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+p {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+table{
+    text-align: center;
+    border-collapse: collapse;
+    margin-left: 1%;
+}
+
+td, tr, tbody{
+    border: 2px solid #1ac6ff;
+
+}
+
+@media screen and (min-width: 800px){
+    body {
+        font-size: 18px;
+    }
+}
