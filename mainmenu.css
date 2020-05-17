@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+a#centerCircle{
+    position: inherit;
+    margin-top: calc(-50% - 37px);
+    top: 0%;
+    left: 0%;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    height: 75px;
+    border-radius: 50%;
+    width: 75px;
+    line-height: 40px;
+    background-color: rgba(17, 17, 17, 0.9);
+}
+
+a#centerCircle:hover{
+    background-color: #00152a;
+}
+
+nav#circularMenu{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+div#regularCircle{
+    width: 500px;
+    height: 500px;
+    opacity: 0;
+    background-color: rgba(17, 17, 17, 0.9);
+    border-radius: 50%;
+    border: 5px double #1ac6ff;
+    margin-left: -5px;
+
+    -webkit-transform: scale(0) rotate(30deg);
+    -moz-transform: scale(0) rotate(30deg);
+    transform: scale(0) rotate(30deg);
+
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+
+.open#regularCircle{
+    opacity: 1;
+
+    -webkit-transform: scale(1) rotate(0);
+    -moz-transform: scale(1) rotate(0);
+    transform: scale(1) rotate(0);
+}
+
+a.circle{
+    text-decoration: none;
+    display: block;
+    height: 80px;
+    width: 80px;
+    margin-left: -40px;
+    margin-top: -20px;
+    position: absolute;
+
+    color: #1ac6ff;
+}
+
+div.menuTextBox{
+    opacity: 0;
+}
